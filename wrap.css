@@ -2,10 +2,10 @@
     position:relative;
 }
 #iframe-overlay { /* Adjust values as needed */
-    height:20%;
+    height:20px;
     width:100%;
     background-color:#fff;
     position:relative;
-    top:-200px;
+    top:-20px;
     left:0px;
 }
