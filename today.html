@@ -9,6 +9,7 @@
     var tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
     var hours = today.getHours();
+    tomorrow.setMonth(today.getMonth()+1);
     if(today.getMonth()===12&&today.getDate()===31){
       var tomorrowyear = tomorrow.getFullYear()+1;
       var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrowyear+"/"+"1"+"/"+tomorrow.getDate();
