@@ -13,7 +13,7 @@
       var tomorrowyear = tomorrow.getFullYear()+2;
       var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrowyear+"/"+"1"+"/"+tomorrow.getDate();
     } else if(((today.getMonth()===9||today.getMonth()===4||today.getMonth()===6||today.getMonth()===11)&&today.getDate()===30)||today.getDate()===31){
-      tomorrow.setMonth(today.getMonth()+2);
+      tomorrow.setMonth(today.getMonth()+31);
       var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrow.getFullYear()+"/"+tomorrow.getMonth();+"/"+tomorrow.getDate();
     } else {
       var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrow.getFullYear()+"/"+tomorrow.getMonth()+"/"+tomorrow.getDate();
