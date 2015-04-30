@@ -11,11 +11,10 @@
     var hours = objDate.getHours();
     var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrow.getFullYear()+"/"+tomorrow.getMonth()+"/"+tomorrow.getDate();
     if(hours >= 15){
-      document.write("<center><font size=48>Tomorrow's Schedule</font></center><iframe src='"+tomorrowurl+"' style='width: 100%; height: 100%; border: 0px; display: inline;'></iframe>")
+      document.write("<center><font size=30><b>Tomorrow's Schedule</b></font></center><iframe src='"+tomorrowurl+"' style='width: 100%; height: 100%; border: 0px; display: inline;'></iframe>")
     }
     else{
       document.write("<iframe src='http://ihwapp.com/now/m' style='width: 100%; height: 100%; border: 0px; display: inline;'></iframe>");
     }
   </script>
-  test
 </html>
