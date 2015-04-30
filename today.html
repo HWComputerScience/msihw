@@ -4,7 +4,7 @@
     var tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
     var hours = objDate.getHours();
-    var tomorrowurl = "http://ihwapp.com/day/"+tomorrow.getYear()+"/"+tomorrow.getMonth()+"/"+tomorrow.getDate();
+    var tomorrowurl = "http://ihwapp.com/day/"+tomorrow.getFullYear()+"/"+tomorrow.getMonth()+"/"+tomorrow.getDate();
     if(hours >= 15){
       document.write(tomorrowurl);
     }
