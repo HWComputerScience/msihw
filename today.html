@@ -9,12 +9,11 @@
     var tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
     var hours = today.getHours();
-    tomorrow.setMonth(today.getMonth()+1);
     if(today.getMonth()===12&&today.getDate()===31){
-      var tomorrowyear = tomorrow.getFullYear()+1;
+      var tomorrowyear = tomorrow.getFullYear()+2;
       var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrowyear+"/"+"1"+"/"+tomorrow.getDate();
     } else if(((today.getMonth()===9||today.getMonth()===4||today.getMonth()===6||today.getMonth()===11)&&today.getDate()===30)||today.getDate()===31){
-      tomorrow.setMonth(today.getMonth()+1);
+      var tomorrowmonth = tomorrow.getMonth()+2;
       var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrow.getFullYear()+"/"+tomorrowmonth+"/"+tomorrow.getDate();
     } else {
       var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrow.getFullYear()+"/"+tomorrow.getMonth()+"/"+tomorrow.getDate();
