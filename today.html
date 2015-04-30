@@ -6,7 +6,7 @@
     var hours = objDate.getHours();
     var tomorrowurl = "http://ihwapp.com/day/"+tomorrow.getYear()+"/"+tomorrow.getMonth()+"/"+tomorrow.getDate();
     if(hours >= 15){
-      document.write("<iframe src ="+tomorrowurl+"></iframe>");
+      document.write(tomorrowurl);
     }
     else{
       document.write("nay");
