@@ -8,6 +8,7 @@
     var today = new Date();
     var tomorrow = new Date();
     tomorrow.setDate(today.getDate() + 1);
+    tomorrow.setMonth(today.getMonth());
     var hours = today.getHours();
     var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrow.getFullYear()+"/"+tomorrow.getMonth()+"/"+tomorrow.getDate();
     if(hours >= 15){
