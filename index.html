@@ -10,6 +10,20 @@
   <center>
     <div id="iframe-wrapper">
       <div>&nbsp</div><div>&nbsp</div><div>&nbsp</div><div>&nbsp</div><div>&nbsp</div>
+      <script>
+        var today = new Date();
+        var tomorrow = new Date();
+        tomorrow.setDate(today.getDate() + 1);
+        var month = tomorrow.getMonth()+1;
+        var hours = today.getHours();
+        var tomorrowurl = "http://ihwapp.com/day/m/"+tomorrow.getFullYear()+"/"+month+"/"+tomorrow.getDate();
+        if(hours >= 15){
+          document.write("<iframe src='http://ihwapp.com/now/m' style='width: 100%; height: 50%; border: 0px; display: inline;'></iframe>");
+        }
+        else{
+          document.write("<iframe src='http://ihwapp.com/now/m' style='width: 100%; height: 50%; border: 0px; display: inline;'></iframe>");
+        }
+      </script>
       <iframe src="http://ihwapp.com/now/m" style="width: 100%; height: 50%; border: 0px; display: inline;"></iframe>
       <iframe src="http://itsalmo.st/#finals_ukjif" style="width: 49%; height: 50%; border: 0px; display: inline;"></iframe>
       <iframe src="http://itsalmo.st/#theend_kbbpe" style="width: 49%; height: 50%; border: 0px; display: inline;"></iframe>
