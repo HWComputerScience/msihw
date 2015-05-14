@@ -19,7 +19,8 @@ http://jononon.github.io/msihw/today.html
 ###Lounge
 Shows current period, next period, start times, and countdowns for finals and for the end of school.
 
-http://jononon.github.io/msihw/index.html
+http://jononon.github.io/msihw/lounge.html
+
 
 ###Bing
 Shows period view during day, tomorrow's schedule after school.
@@ -42,7 +43,12 @@ More info about this repository.
 http://jononon.github.io/msihw/moreinfo.html
 
 ##Credits
+Uses the iHW Online Visualiser (http://ihwapp.com/now)
+Uses countdowns from http://itsalmo.st
+Uses carousels from Slick: http://github.com/kenwheeler/slick
 Uses the iHW Online Visualiser (http://ihwapp.com/now) and http://itsalmo.st
 
+
 Product of the HW Tech Council
+Powered by iHW
 
