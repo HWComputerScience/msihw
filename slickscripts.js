@@ -7,6 +7,6 @@ $(document).ready(function() {
         fade: false,
         pauseOnHover: false,
         slidesToShow: 1,
-        variableWidth: true,
+        variableWidth: false,
     });
 });
