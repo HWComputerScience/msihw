@@ -4,8 +4,9 @@ $(document).ready(function() {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 7000,
-        fade: true,
+        fade: false,
         pauseOnHover: false,
         slidesToShow: 1,
+        variableWidth: true,
     });
 });
