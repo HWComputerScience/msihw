@@ -1,4 +1,4 @@
-$(document).ready(finction() {
+$(document).ready(function() {
     $('.iHW-Scroller').slick({
         dots: false,
         infinite: true,
