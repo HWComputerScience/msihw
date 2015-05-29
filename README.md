@@ -7,7 +7,7 @@ Scrolls through full schedule view, period view, world news, and HW related twee
 
 http://jononon.github.io/msihw/scroll.html
 
-Also avaliable without world news and tweets:
+Also avaliable without world news:
 
 http://jononon.github.io/msihw/scrollnonews.html
 
