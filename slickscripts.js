@@ -7,5 +7,6 @@ $(document).ready(function() {
         fade: true,
         pauseOnHover: false,
         slidesToShow: 1,
+        variableWidth: false,
     });
 });
